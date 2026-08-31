@@ -82,10 +82,7 @@ static esp_lcd_panel_handle_t panel_handle = NULL;
 #define WIFI_CONNECTED_BIT BIT0
 #define KEY_LOADED_BIT BIT1
 
-#define I2C_SDA 21
-#define I2C_SCL 22
-#define I2C_PORT I2C_NUM_0
-#define OLED_ADDR 0x3C
+
 
 static const char *WIFI_TAG = "WIFI";
 static const char *TAG = "MAIN";
